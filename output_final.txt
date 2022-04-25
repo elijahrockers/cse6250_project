@@ -1,0 +1,1211 @@
+(hw5) [root@bootcamp replicate]# python h1.py
+2022-04-21 03:28:56.733975: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-04-21 03:28:56.734332: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-04-21 03:28:56.734383: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-04-21 03:28:56.734424: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (bootcamp.local): /proc/driver/nvidia/version does not exist
+WARNING:tensorflow:From h1.py:48: The name tf.keras.backend.set_session is deprecated. Please use tf.compat.v1.keras.backend.set_session instead.
+
+Loaded 400000 word vectors.
+Results for choice of k is 2.
+               gof
+Attach    0.487508
+Comp      0.631695
+Global    0.591930
+Health    0.539622
+Control   0.123279
+MetaCog  -0.005695
+Others   -0.008982
+Hopeless  0.428250
+OthViews  0.395433
+Results for choice of k is 3.
+               gof
+Attach    0.467736
+Comp      0.625398
+Global    0.585417
+Health    0.558609
+Control   0.139156
+MetaCog  -0.008059
+Others   -0.012720
+Hopeless  0.437431
+OthViews  0.389860
+Results for choice of k is 4.
+               gof
+Attach    0.518683
+Comp      0.609361
+Global    0.599098
+Health    0.560146
+Control   0.147965
+MetaCog        NaN
+Others         NaN
+Hopeless  0.481677
+OthViews  0.394430
+Results for choice of k is 5.
+               gof
+Attach    0.557531
+Comp      0.601753
+Global    0.595598
+Health    0.641921
+Control   0.129917
+MetaCog        NaN
+Others         NaN
+Hopeless  0.498329
+OthViews  0.378335
+Results for choice of k is 6.
+               gof
+Attach    0.573223
+Comp      0.620451
+Global    0.564500
+Health    0.585069
+Control   0.133833
+MetaCog        NaN
+Others         NaN
+Hopeless  0.479036
+OthViews  0.376306
+Results for choice of k is 7.
+               gof
+Attach    0.579136
+Comp      0.651537
+Global    0.584394
+Health    0.602924
+Control   0.103924
+MetaCog        NaN
+Others         NaN
+Hopeless  0.505955
+OthViews  0.395196
+Results for choice of k is 8.
+               gof
+Attach    0.592272
+Comp      0.635237
+Global    0.598832
+Health    0.581691
+Control   0.107195
+MetaCog        NaN
+Others         NaN
+Hopeless  0.486825
+OthViews  0.395756
+Results for choice of k is 9.
+               gof
+Attach    0.569615
+Comp      0.625050
+Global    0.591293
+Health    0.563350
+Control   0.091310
+MetaCog        NaN
+Others         NaN
+Hopeless  0.453018
+OthViews  0.365004
+Results for choice of k is 10.
+               gof
+Attach    0.578717
+Comp      0.628001
+Global    0.565182
+Health    0.559732
+Control   0.091310
+MetaCog        NaN
+Others         NaN
+Hopeless  0.426271
+OthViews  0.359147
+Best choice for classification k is: 7
+Results for choice of k is 2.
+               gof
+Attach    0.533081
+Comp      0.649734
+Global    0.505887
+Health    0.553040
+Control   0.194688
+MetaCog   0.038264
+Others    0.180533
+Hopeless  0.452257
+OthViews  0.425604
+Results for choice of k is 3.
+               gof
+Attach    0.571457
+Comp      0.643418
+Global    0.501768
+Health    0.524422
+Control   0.199433
+MetaCog   0.017203
+Others    0.187523
+Hopeless  0.445968
+OthViews  0.423073
+Results for choice of k is 4.
+               gof
+Attach    0.594582
+Comp      0.630529
+Global    0.494859
+Health    0.504184
+Control   0.217013
+MetaCog   0.005964
+Others    0.226282
+Hopeless  0.456442
+OthViews  0.433707
+Results for choice of k is 5.
+               gof
+Attach    0.595682
+Comp      0.617334
+Global    0.486188
+Health    0.512529
+Control   0.231549
+MetaCog   0.020446
+Others    0.255928
+Hopeless  0.449473
+OthViews  0.426367
+Results for choice of k is 6.
+               gof
+Attach    0.601784
+Comp      0.620741
+Global    0.473225
+Health    0.486347
+Control   0.247096
+MetaCog   0.081585
+Others    0.224073
+Hopeless  0.469724
+OthViews  0.429623
+Results for choice of k is 7.
+               gof
+Attach    0.596454
+Comp      0.616136
+Global    0.463635
+Health    0.457317
+Control   0.255587
+MetaCog   0.067257
+Others    0.194688
+Hopeless  0.462095
+OthViews  0.441217
+Results for choice of k is 8.
+               gof
+Attach    0.589998
+Comp      0.619966
+Global    0.457243
+Health    0.441701
+Control   0.249105
+MetaCog   0.060601
+Others    0.201753
+Hopeless  0.462554
+OthViews  0.430799
+Results for choice of k is 9.
+               gof
+Attach    0.591539
+Comp      0.622235
+Global    0.467568
+Health    0.438776
+Control   0.250831
+MetaCog   0.052864
+Others    0.188513
+Hopeless  0.465596
+OthViews  0.441228
+Results for choice of k is 10.
+               gof
+Attach    0.588730
+Comp      0.615560
+Global    0.478525
+Health    0.422560
+Control   0.260408
+MetaCog   0.047840
+Others    0.179809
+Hopeless  0.450163
+OthViews  0.440690
+Best choice for regression k is: 6
+KNN Classification Prediction
+          estimate
+Attach    0.556316
+Comp      0.664114
+Global    0.362143
+Health    0.771292
+Control   0.112286
+MetaCog        NaN
+Others    0.322487
+Hopeless  0.498864
+OthViews  0.480114
+KNN Regression Prediction
+          estimate
+Attach    0.583127
+Comp      0.635858
+Global    0.430970
+Health    0.536558
+Control   0.256385
+MetaCog   0.046193
+Others    0.185063
+Hopeless  0.426396
+OthViews  0.466841
+           svr
+rbf   0.072856
+lin   0.062218
+poly  0.060742
+           svm
+rbf   0.102315
+lin   0.105029
+poly  0.045483
+SVM Classification Prediction
+          estimate
+Attach    0.599013
+Comp      0.666462
+Global    0.360800
+Health    0.650262
+Control        NaN
+MetaCog        NaN
+Others         NaN
+Hopeless  0.415957
+OthViews  0.422699
+SVM Regression Prediction
+          estimate
+Attach    0.653487
+Comp      0.619242
+Global    0.431378
+Health    0.335199
+Control   0.236330
+MetaCog   0.069315
+Others    0.143586
+Hopeless  0.506693
+OthViews  0.479203
+SVM Classification 95% Confidence Intervals
+               low      high
+Attach    0.548738  0.644003
+Comp      0.628703  0.706704
+Global    0.282443  0.407293
+Health    0.570958  0.732482
+Control   0.000000  1.000000
+MetaCog   0.000000  1.000000
+Others    0.000000  1.000000
+Hopeless  0.351925  0.470645
+OthViews  0.366187  0.475456
+SVM Regression 95% Confidence Intervals
+               low      high
+Attach    0.625001  0.679350
+Comp      0.589181  0.649631
+Global    0.402340  0.475829
+Health    0.297010  0.371337
+Control   0.183311  0.283901
+MetaCog   0.016714  0.113225
+Others    0.099060  0.187802
+Hopeless  0.462442  0.536814
+OthViews  0.440372  0.518289
+  0%|                                                                                                          | 0/48 [00:00<?, ?it/s]{'batch_size': 32, 'dropout': 0.1, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 50, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+2022-04-21 04:04:25.083693: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+  2%|█▉                                                                                             | 1/48 [02:29<1:57:15, 149.69s/it]{'batch_size': 32, 'dropout': 0.1, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 50, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+  4%|███▉                                                                                           | 2/48 [04:56<1:53:19, 147.82s/it]{'batch_size': 32, 'dropout': 0.1, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 100, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+  6%|█████▉                                                                                         | 3/48 [08:20<2:10:14, 173.65s/it]{'batch_size': 32, 'dropout': 0.1, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 100, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+  8%|███████▉                                                                                       | 4/48 [11:43<2:15:48, 185.20s/it]{'batch_size': 32, 'dropout': 0.1, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 50, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 10%|█████████▉                                                                                     | 5/48 [14:05<2:01:26, 169.45s/it]{'batch_size': 32, 'dropout': 0.1, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 50, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 12%|███████████▉                                                                                   | 6/48 [16:28<1:52:23, 160.56s/it]{'batch_size': 32, 'dropout': 0.1, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 100, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 15%|█████████████▊                                                                                 | 7/48 [19:54<1:59:51, 175.41s/it]{'batch_size': 32, 'dropout': 0.1, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 100, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 17%|███████████████▊                                                                               | 8/48 [23:21<2:03:47, 185.68s/it]{'batch_size': 32, 'dropout': 0.1, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 50, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 19%|█████████████████▊                                                                             | 9/48 [25:43<1:51:48, 172.00s/it]{'batch_size': 32, 'dropout': 0.1, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 50, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 21%|███████████████████▌                                                                          | 10/48 [28:07<1:43:21, 163.21s/it]{'batch_size': 32, 'dropout': 0.1, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 100, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 23%|█████████████████████▌                                                                        | 11/48 [31:28<1:47:49, 174.86s/it]{'batch_size': 32, 'dropout': 0.1, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 100, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 25%|███████████████████████▌                                                                      | 12/48 [34:48<1:49:30, 182.50s/it]{'batch_size': 32, 'dropout': 0.5, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 50, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 27%|█████████████████████████▍                                                                    | 13/48 [37:12<1:39:39, 170.84s/it]{'batch_size': 32, 'dropout': 0.5, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 50, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 29%|███████████████████████████▍                                                                  | 14/48 [39:37<1:32:24, 163.08s/it]{'batch_size': 32, 'dropout': 0.5, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 100, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 31%|█████████████████████████████▍                                                                | 15/48 [43:01<1:36:27, 175.39s/it]{'batch_size': 32, 'dropout': 0.5, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 100, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 33%|███████████████████████████████▎                                                              | 16/48 [46:29<1:38:43, 185.11s/it]{'batch_size': 32, 'dropout': 0.5, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 50, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 35%|█████████████████████████████████▎                                                            | 17/48 [48:53<1:29:19, 172.87s/it]{'batch_size': 32, 'dropout': 0.5, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 50, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 38%|███████████████████████████████████▎                                                          | 18/48 [51:21<1:22:35, 165.19s/it]{'batch_size': 32, 'dropout': 0.5, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 100, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 40%|█████████████████████████████████████▏                                                        | 19/48 [54:41<1:24:54, 175.67s/it]{'batch_size': 32, 'dropout': 0.5, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 100, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 42%|███████████████████████████████████████▏                                                      | 20/48 [58:01<1:25:25, 183.04s/it]{'batch_size': 32, 'dropout': 0.5, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 50, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 44%|████████████████████████████████████████▎                                                   | 21/48 [1:00:23<1:16:51, 170.78s/it]{'batch_size': 32, 'dropout': 0.5, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 50, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 46%|██████████████████████████████████████████▏                                                 | 22/48 [1:02:46<1:10:26, 162.54s/it]{'batch_size': 32, 'dropout': 0.5, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 100, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 48%|████████████████████████████████████████████                                                | 23/48 [1:06:06<1:12:21, 173.68s/it]{'batch_size': 32, 'dropout': 0.5, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 100, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 50%|██████████████████████████████████████████████                                              | 24/48 [1:09:36<1:13:51, 184.64s/it]{'batch_size': 64, 'dropout': 0.1, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 50, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 52%|████████████████████████████████████████████████▉                                             | 25/48 [1:11:06<59:49, 156.08s/it]{'batch_size': 64, 'dropout': 0.1, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 50, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 54%|██████████████████████████████████████████████████▉                                           | 26/48 [1:12:35<49:53, 136.05s/it]{'batch_size': 64, 'dropout': 0.1, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 100, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 56%|████████████████████████████████████████████████████▉                                         | 27/48 [1:14:54<47:56, 136.99s/it]{'batch_size': 64, 'dropout': 0.1, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 100, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 58%|██████████████████████████████████████████████████████▊                                       | 28/48 [1:17:13<45:49, 137.45s/it]{'batch_size': 64, 'dropout': 0.1, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 50, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 60%|████████████████████████████████████████████████████████▊                                     | 29/48 [1:18:41<38:49, 122.63s/it]{'batch_size': 64, 'dropout': 0.1, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 50, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 62%|██████████████████████████████████████████████████████████▊                                   | 30/48 [1:20:09<33:39, 112.19s/it]{'batch_size': 64, 'dropout': 0.1, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 100, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 65%|████████████████████████████████████████████████████████████▋                                 | 31/48 [1:22:26<33:54, 119.70s/it]{'batch_size': 64, 'dropout': 0.1, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 100, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 67%|██████████████████████████████████████████████████████████████▋                               | 32/48 [1:24:43<33:19, 124.95s/it]{'batch_size': 64, 'dropout': 0.1, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 50, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 69%|████████████████████████████████████████████████████████████████▋                             | 33/48 [1:26:11<28:28, 113.91s/it]{'batch_size': 64, 'dropout': 0.1, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 50, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 71%|██████████████████████████████████████████████████████████████████▌                           | 34/48 [1:27:39<24:46, 106.14s/it]{'batch_size': 64, 'dropout': 0.1, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 100, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 73%|████████████████████████████████████████████████████████████████████▌                         | 35/48 [1:29:57<25:03, 115.64s/it]{'batch_size': 64, 'dropout': 0.1, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 100, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 75%|██████████████████████████████████████████████████████████████████████▌                       | 36/48 [1:32:14<24:25, 122.16s/it]{'batch_size': 64, 'dropout': 0.5, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 50, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 77%|████████████████████████████████████████████████████████████████████████▍                     | 37/48 [1:33:44<20:34, 112.25s/it]{'batch_size': 64, 'dropout': 0.5, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 50, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 79%|██████████████████████████████████████████████████████████████████████████▍                   | 38/48 [1:35:13<17:32, 105.27s/it]{'batch_size': 64, 'dropout': 0.5, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 100, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 81%|████████████████████████████████████████████████████████████████████████████▍                 | 39/48 [1:37:33<17:22, 115.80s/it]{'batch_size': 64, 'dropout': 0.5, 'epochs': 100, 'losses': 'binary_crossentropy', 'lstm_units': 100, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 83%|██████████████████████████████████████████████████████████████████████████████▎               | 40/48 [1:39:52<16:21, 122.63s/it]{'batch_size': 64, 'dropout': 0.5, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 50, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 85%|████████████████████████████████████████████████████████████████████████████████▎             | 41/48 [1:41:19<13:05, 112.23s/it]{'batch_size': 64, 'dropout': 0.5, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 50, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 88%|██████████████████████████████████████████████████████████████████████████████████▎           | 42/48 [1:42:56<10:45, 107.58s/it]{'batch_size': 64, 'dropout': 0.5, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 100, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 90%|████████████████████████████████████████████████████████████████████████████████████▏         | 43/48 [1:45:14<09:43, 116.70s/it]{'batch_size': 64, 'dropout': 0.5, 'epochs': 100, 'losses': 'categorical_crossentropy', 'lstm_units': 100, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 92%|██████████████████████████████████████████████████████████████████████████████████████▏       | 44/48 [1:47:31<08:10, 122.71s/it]{'batch_size': 64, 'dropout': 0.5, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 50, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 94%|████████████████████████████████████████████████████████████████████████████████████████▏     | 45/48 [1:48:59<05:36, 112.28s/it]{'batch_size': 64, 'dropout': 0.5, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 50, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 100)               40400
+_________________________________________________________________
+dropout (Dropout)            (None, 100)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 909
+=================================================================
+Total params: 172,509
+Trainable params: 41,309
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 96%|██████████████████████████████████████████████████████████████████████████████████████████    | 46/48 [1:50:27<03:29, 104.91s/it]{'batch_size': 64, 'dropout': 0.5, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 100, 'optimizer': 'rmsprop'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+ 98%|████████████████████████████████████████████████████████████████████████████████████████████  | 47/48 [1:52:45<01:54, 114.91s/it]{'batch_size': 64, 'dropout': 0.5, 'epochs': 100, 'losses': 'mean_absolute_error', 'lstm_units': 100, 'optimizer': 'Adam'}
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 25, 50)            131200
+_________________________________________________________________
+bidirectional (Bidirectional (None, 200)               120800
+_________________________________________________________________
+dropout (Dropout)            (None, 200)               0
+_________________________________________________________________
+dense (Dense)                (None, 9)                 1809
+=================================================================
+Total params: 253,809
+Trainable params: 122,609
+Non-trainable params: 131,200
+_________________________________________________________________
+None
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 48/48 [1:55:02<00:00, 143.80s/it]
+              start              end    duration  round_epochs  ...  epochs                    losses  lstm_units  optimizer
+0   04/21/22-040424  04/21/22-040654  149.580096           100  ...     100       binary_crossentropy          50    rmsprop
+1   04/21/22-040654  04/21/22-040920  146.328079           100  ...     100       binary_crossentropy          50       Adam
+2   04/21/22-040920  04/21/22-041244  204.209168           100  ...     100       binary_crossentropy         100    rmsprop
+3   04/21/22-041245  04/21/22-041607  202.720269           100  ...     100       binary_crossentropy         100       Adam
+4   04/21/22-041608  04/21/22-041829  141.335054           100  ...     100  categorical_crossentropy          50    rmsprop
+5   04/21/22-041829  04/21/22-042052  143.136024           100  ...     100  categorical_crossentropy          50       Adam
+6   04/21/22-042052  04/21/22-042418  205.799423           100  ...     100  categorical_crossentropy         100    rmsprop
+7   04/21/22-042418  04/21/22-042746  207.457600           100  ...     100  categorical_crossentropy         100       Adam
+8   04/21/22-042746  04/21/22-043008  141.746891           100  ...     100       mean_absolute_error          50    rmsprop
+9   04/21/22-043008  04/21/22-043231  143.333213           100  ...     100       mean_absolute_error          50       Adam
+10  04/21/22-043231  04/21/22-043553  201.100203           100  ...     100       mean_absolute_error         100    rmsprop
+11  04/21/22-043553  04/21/22-043913  199.807065           100  ...     100       mean_absolute_error         100       Adam
+12  04/21/22-043913  04/21/22-044137  143.822355           100  ...     100       binary_crossentropy          50    rmsprop
+13  04/21/22-044137  04/21/22-044402  144.958113           100  ...     100       binary_crossentropy          50       Adam
+14  04/21/22-044402  04/21/22-044726  203.756694           100  ...     100       binary_crossentropy         100    rmsprop
+15  04/21/22-044726  04/21/22-045053  207.504801           100  ...     100       binary_crossentropy         100       Adam
+16  04/21/22-045053  04/21/22-045318  144.219842           100  ...     100  categorical_crossentropy          50    rmsprop
+17  04/21/22-045318  04/21/22-045545  147.117975           100  ...     100  categorical_crossentropy          50       Adam
+18  04/21/22-045545  04/21/22-045905  199.915874           100  ...     100  categorical_crossentropy         100    rmsprop
+19  04/21/22-045905  04/21/22-050225  200.017560           100  ...     100  categorical_crossentropy         100       Adam
+20  04/21/22-050225  04/21/22-050448  142.015749           100  ...     100       mean_absolute_error          50    rmsprop
+21  04/21/22-050448  04/21/22-050711  143.155760           100  ...     100       mean_absolute_error          50       Adam
+22  04/21/22-050711  04/21/22-051030  199.456725           100  ...     100       mean_absolute_error         100    rmsprop
+23  04/21/22-051031  04/21/22-051401  210.034747           100  ...     100       mean_absolute_error         100       Adam
+24  04/21/22-051401  04/21/22-051530   89.266255           100  ...     100       binary_crossentropy          50    rmsprop
+25  04/21/22-051530  04/21/22-051659   89.136610           100  ...     100       binary_crossentropy          50       Adam
+26  04/21/22-051700  04/21/22-051919  139.004918           100  ...     100       binary_crossentropy         100    rmsprop
+27  04/21/22-051919  04/21/22-052137  138.333162           100  ...     100       binary_crossentropy         100       Adam
+28  04/21/22-052137  04/21/22-052305   87.866735           100  ...     100  categorical_crossentropy          50    rmsprop
+29  04/21/22-052305  04/21/22-052433   87.655629           100  ...     100  categorical_crossentropy          50       Adam
+30  04/21/22-052433  04/21/22-052650  137.041732           100  ...     100  categorical_crossentropy         100    rmsprop
+31  04/21/22-052650  04/21/22-052908  137.016511           100  ...     100  categorical_crossentropy         100       Adam
+32  04/21/22-052908  04/21/22-053036   87.968362           100  ...     100       mean_absolute_error          50    rmsprop
+33  04/21/22-053036  04/21/22-053204   87.836454           100  ...     100       mean_absolute_error          50       Adam
+34  04/21/22-053204  04/21/22-053421  137.603384           100  ...     100       mean_absolute_error         100    rmsprop
+35  04/21/22-053422  04/21/22-053639  137.196245           100  ...     100       mean_absolute_error         100       Adam
+36  04/21/22-053639  04/21/22-053808   88.945080           100  ...     100       binary_crossentropy          50    rmsprop
+37  04/21/22-053808  04/21/22-053937   88.806705           100  ...     100       binary_crossentropy          50       Adam
+38  04/21/22-053937  04/21/22-054157  140.164379           100  ...     100       binary_crossentropy         100    rmsprop
+39  04/21/22-054157  04/21/22-054416  138.401749           100  ...     100       binary_crossentropy         100       Adam
+40  04/21/22-054416  04/21/22-054544   87.771176           100  ...     100  categorical_crossentropy          50    rmsprop
+41  04/21/22-054544  04/21/22-054721   96.537407           100  ...     100  categorical_crossentropy          50       Adam
+42  04/21/22-054721  04/21/22-054939  137.791831           100  ...     100  categorical_crossentropy         100    rmsprop
+43  04/21/22-054939  04/21/22-055155  136.554327           100  ...     100  categorical_crossentropy         100       Adam
+44  04/21/22-055155  04/21/22-055323   87.766497           100  ...     100       mean_absolute_error          50    rmsprop
+45  04/21/22-055323  04/21/22-055451   87.536969           100  ...     100       mean_absolute_error          50       Adam
+46  04/21/22-055451  04/21/22-055709  138.057595           100  ...     100       mean_absolute_error         100    rmsprop
+47  04/21/22-055709  04/21/22-055926  136.808955           100  ...     100       mean_absolute_error         100       Adam
+
+[48 rows x 14 columns]
+          estimate
+Attach    0.139559
+Comp      0.209393
+Global   -0.151885
+Health    0.066258
+Control   0.083971
+MetaCog  -0.053315
+Others   -0.057967
+Hopeless  0.087322
+OthViews  0.195136
+Deploy package mlm_rnn have been saved.
